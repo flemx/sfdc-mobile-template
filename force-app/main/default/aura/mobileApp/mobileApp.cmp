@@ -1,0 +1,36 @@
+<aura:component implements="forceCommunity:themeLayout">
+    <lightning:navigation aura:id="navService"/>
+    <aura:attribute name="pageReference" type="Object"/>
+    <aura:handler name="init" value="{! this }" action="{! c.init }"/>
+    <aura:attribute name="page1" type="String" default="test"/> 
+    <aura:attribute name="icon1" type="String" default="utility:case"/> 
+    <aura:attribute name="search" type="Aura.Component[]"/>
+    <aura:attribute name="sidebarFooter" type="Aura.Component[]"/>
+    <div class="slds-grid slds-grid--align-center">
+        <div class="slds-col">
+            <div class="slds-grid slds-grid--vertical">
+                <div class="slds-col">
+                <!-- placeholder for logo -->
+                <div class="logoContainer"></div>
+                </div>
+                <div class="slds-col">
+                    {!v.search}
+                </div>
+                <div class="slds-col">   
+                <!-- placeholder for navigation -->
+                <c:verticalNav></c:verticalNav>             
+                </div>
+                <div class="slds-col">
+                    <button onclick="{!c.handleClick2}">TEST</button>
+                    <lightning:buttonIcon iconName="{!v.icon1}" variant="bare" alternativeText="icon1" title="icon1" onclick="{! c.handleClick }"></lightning:buttonIcon>
+                </div>
+                <div class="slds-col">
+                    {!v.sidebarFooter}
+                </div>
+            </div>
+        </div>
+        <div class="slds-col content">
+            {!v.body}
+        </div>
+    </div>
+</aura:component>

@@ -1,0 +1,11 @@
+{
+  "orgName": "Mobile Template",
+  "edition": "Developer",
+  "features": ["Communities"],
+  "settings": {
+      "orgPreferenceSettings": {
+        "s1DesktopEnabled": true,
+        "networksEnabled": true
+      }
+  }
+}

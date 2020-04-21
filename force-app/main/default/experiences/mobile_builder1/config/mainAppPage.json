@@ -1,0 +1,10 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "0c6aa8e6-7123-44ba-9f9d-37442245fed8",
+  "headMarkup" : "<meta name=\"full-screen\" content=\"yes\">\n<meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n<meta name=\"mobile-web-app-capable\" content=\"yes\">\n<meta name=\"apple-mobile-web-app-title\" content=\"Mobile app\">\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black-translucent\">",
+  "id" : "ac71ebc9-b69a-41cd-8b38-bacaf00e0fc0",
+  "isRelaxedCSPLevel" : false,
+  "label" : "main",
+  "templateName" : "Starter Template",
+  "type" : "appPage"
+}

@@ -1,0 +1,4 @@
+<design:component label="Condensed Theme Layout">
+    <design:attribute name="icon1" label="Menu Icon 1" />
+    <design:attribute name="page1" label="Menu Page 1" />
+</design:component>
