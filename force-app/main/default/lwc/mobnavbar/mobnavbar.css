@@ -26,7 +26,6 @@
   }
   
   /* Add a color to the active/current link */
-  .navbar a.active {
-    background-color: #4CAF50;
-    color: white;
+  .navbar a.active svg{
+    fill: #648079
   }
